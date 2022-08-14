@@ -8,8 +8,7 @@ then
     exit
 fi
 
-FILE_AGE_DAYS=7
-echo "How many days of photos would you like to convert? ($FILE_AGE_DAYS)"?
+echo "How many days of photos would you like to convert?"?
 read -r FILE_AGE_DAYS
 
 re='^[0-9]+$'
